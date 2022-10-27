@@ -8,14 +8,14 @@ import { Container, Row, Col } from "reactstrap";
 function Images() {
   return (
     <>
-      <div className="section section-images">
+      {/* <div className="section section-images">
         <Container>
           <Row>
             <Col md="12">
               <div className="hero-images-container">
                 <img
                   alt="..."
-                  src={require("assets/img/hero-image-1.png")}
+                  src={require("assets/img/download.jpg")}
                 ></img>
               </div>
               <div className="hero-images-container-1">
@@ -33,7 +33,7 @@ function Images() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </>
   );
 }

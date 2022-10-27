@@ -8,50 +8,46 @@ function DarkFooter() {
   return (
     <footer className="footer" data-background-color="black">
       <Container>
-        <nav>
+        <nav
+        style={{
+          margin: "auto",
+          textAlign: "center",
+          justifyContent: "center",
+          position: "absolute",
+          left: "10%",
+        }}
+        >
           <ul>
             <li>
               <a
                 href="https://www.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
-                Creative Tim
+                Council
               </a>
             </li>
             <li>
               <a
-                href="http://presentation.creative-tim.com?ref=nukr-dark-footer"
+                href="https://www.cc.iitb.ac.in/"
                 target="_blank"
               >
-                About Us
+                Computer Centre
               </a>
             </li>
             <li>
               <a
-                href="http://blog.creative-tim.com?ref=nukr-dark-footer"
+                href="https://support.iitb.ac.in/support/login.jsp"
                 target="_blank"
               >
-                Blog
+                Maintenance
               </a>
             </li>
           </ul>
         </nav>
+        <br /><br />
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
-          <a
-            href="https://www.invisionapp.com?ref=nukr-dark-footer"
-            target="_blank"
-          >
-            Invision
-          </a>
-          . Coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=nukr-dark-footer"
-            target="_blank"
-          >
-            Creative Tim
-          </a>
-          .
+          © {new Date().getFullYear()}, Developed by Web Team &nbsp;| Hostel 6
+          &nbsp;with ♥.
         </div>
       </Container>
     </footer>

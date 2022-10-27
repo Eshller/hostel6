@@ -51,7 +51,7 @@ root.render(
           render={(props) => <ProfilePage {...props} />}
         />
         <Route
-          path="/login-page"
+          path="/mess-menu"
           render={(props) => <LoginPage {...props} />}
         />
         <Redirect to="/index" />

@@ -449,16 +449,34 @@
 }
 
 .brand .h1-seo {
-  font-size: 2.8em;
-  text-transform: uppercase;
-  font-weight: 300;
+  filter: drop-shadow(2px 4px 6px black);
+  height: 100px;
+    color: black;
+    font-family: ui-monospace;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: all ease-in-out 1s;
 }
-
+.h1-seo:hover{
+  filter: drop-shadow(2px 4px 6px rgb(255, 255, 255));
+  transition: all ease-in-out 1s;
+  transform: scale(1.1);
+}
 .brand .n-logo {
-  max-width: 100px;
-  margin-bottom: 40px;
+  filter: drop-shadow(1px 1px 1px black);
+  max-width: 350px;
+  margin-bottom: -80px;
+  transition: all ease-in-out 1s;
+  margin-top: -5vw;
 }
-
+.n-logo:hover{
+  /* filter: drop-shadow(2px 4px 6px black); */
+  /* filter:contrast(0.5); */
+  filter: drop-shadow(2px 4px 6px rgb(255, 255, 255));
+  transition: all ease-in-out 1s;
+  transform: scale(1.1);
+}
 .invision-logo {
   max-width: 70px;
   top: -2px;
